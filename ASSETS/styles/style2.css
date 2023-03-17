@@ -333,3 +333,95 @@ table, th, td, tr {
     border-radius: 5px;
     border: 2px solid black;
 }
+
+
+/* FORMULARIOS */
+
+.fomr-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 7rem;
+    margin-top: 2rem;
+}
+
+.img-form1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.img-form2 {
+    width: 80%;
+    border-radius: 2rem;
+    border: 2px solid #e767118f;
+    margin-top: 2rem;
+}
+
+.div-form {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pay-p {
+    font-size: 14px;
+}
+
+input, select {
+    width: 20rem;
+}
+
+label, option {
+    margin-top: 8px;
+}
+
+.payment1 {
+    width: 12px;
+}
+
+.btn-form{
+    text-align: center;
+    width: 20rem;
+}
+
+.btn-form1 {
+    width: 5rem;
+    background-color: #000000;
+    color: white;
+    border-radius: 1rem;
+    border: 2px solid rgb(233, 117, 8);
+}
+
+iframe {
+    width: 20rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+footer {
+    background-color: #00000060;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+textarea {
+    height: 218px; 
+    width: 324px;
+}

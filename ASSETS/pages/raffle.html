@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/ASSETS/styles/style.css">
+    <!-- <link rel="stylesheet" href="../styles/style2.css"> -->
+    <title>Olympus Gym | Raffle</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="all-btn">
+                <a class="nav-btn" href="/index.html">Home</a>
+                <a class="nav-btn" href="./aboutus.html">About Us</a>
+                <a class="nav-btn" href="./contact.html">Contact</a>
+                <a class="nav-btn" href="./table.html">Schedule</a>
+                <a class="nav-btn" href="./list.html">Benefits</a>
+                <a class="nav-btn" href="#">Raffle</a>
+            </div>
+        </nav>
+        <div class="img-logo">
+            <img src="../images/logo.png" alt="logo" class="img-logo1">
+        </div>
+    </header>
+    <main>
+        <div class="form-h1">
+        <h1>Raffle</h1>
+        <h3>Every month in this section you can participate in a raffle.</h3>
+        </div>
+
+        <div class="form-container">
+
+        <div class="img-form1">
+            <img class="img-form2" src="../images/dumbbells.jpg" alt="Gym">
+            <img class="img-form2" src="../images/together.jpg" alt="Gym2">
+        </div>
+
+
+        <form action="/show_data.html" method="get">
+            <div class="div-form">
+            <h4>Participe in our raffle for  a month of personalized training.
+            </h4>
+            <label for="nombre">First Name</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellido">Last Name</label>
+            <input type="text" name="apellido" id="apellido">
+            <label for="correo">Email</label>
+            <input type="email" name="correo" id="correo">
+
+            <p class="form-p">Choose Your Gender:</p>
+            <select name="genero" id="genero">
+            <option value="">Seleccionar Genero</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Otros">Otros</option>
+
+            </select>
+            <label for="ciudad">Country:</label>
+            <select name="ciudad" id="ciudad">
+            <option value="">Seleccionar Ciudad</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Mexico">Mexico</option>
+            </select>
+            <div class="payment">
+            <p class="form-p">Payment Options:</p>
+            <input class="payment1" type="radio" id="efectivo" name="Pagos">
+            <label class="pay-p" for="efectivo">Cash</label><br>
+            <input class="payment1" type="radio" id="Credit-Cards" name="Pagos">
+            <label class="pay-p" for="Credit-Cards">Credit Cards</label><br>
+            <input class="payment1" type="radio" id="debit-card" name="Pagos">
+            <label class="pay-p" for="debit-card">Debit Cards</label><br>
+            </div>
+            <p class="form-p">Services</p>
+            <textarea name="comentario" placeholder="Ingrese su comentario"></textarea>
+
+            <div class="checkbox">
+                <input class="payment1" type="checkbox" name="condiciones" id="condiciones">
+                <label for="condiciones">I accept terms and conditions...</label>
+            </div>
+        </div>
+        <div class="btn-form">
+            <input class="btn-form1" type="submit" value="Send">
+        </div>
+        </form>
+    </div>
+    </main>
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.862652965548!2d-75.8735781107043!3d8.762772773201885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2fa7f218c6c3%3A0x14e40a00df01fd95!2sKFC%20Alamedas!5e0!3m2!1ses!2sco!4v1678928455725!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5>Hecho por: &copy;Luis Hernandez</h5>
+        <h5>MindHub NCohort46</h5>
+    </footer>
+</body>
+</html>
